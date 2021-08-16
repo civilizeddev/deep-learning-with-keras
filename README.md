@@ -75,3 +75,4 @@ $ poetry install && poetry update
 - [Poetry](https://python-poetry.org/docs/cli/)
 - [Black - The uncompromising code formatter](https://github.com/psf/black)
 - [[Python] poetry를 사용하는 프로젝트를 vscode에서 개발할 때 interpreter를 잡는 방법](https://amazingguni.medium.com/python-poetry를-사용하는-프로젝트를-vscode에서-개발할-때-interpreter를-잡는-방법-e1806f093e6d)
+- [WSL2에서 X window를 세팅하는 법](https://evandde.github.io/wsl2-x/)
