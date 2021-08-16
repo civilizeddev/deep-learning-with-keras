@@ -11,7 +11,9 @@ $ sudo apt update
 $ sudo hwclock --hctosys
 
 $ sudo apt upgrade
-$ sudo apt install -y build-essential libncurses5-dev libffi-dev libbz2-dev zlib1g zlib1g-dev libreadline-dev libsqlite3-dev
+$ sudo apt install -y build-essential
+$ sudo apt install -y libncurses5-dev libffi-dev libbz2-dev zlib1g zlib1g-dev libreadline-dev libsqlite3-dev
+$ sudo apt install -y python3-tk tk-dev
 ```
 
 ### pyenv 설치
@@ -25,6 +27,12 @@ $ brew install pyenv-virtualenv
 
 ```
 $ pyenv install --list
+
+# for tkinter (before installing pyhton)
+$ export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
+$ export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
+$ export PATH=$PATH:/usr/local/opt/tcl-tk/bin
+
 $ pyenv install 3.7.11
 $ pyenv versions
 ```
