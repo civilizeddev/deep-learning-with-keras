@@ -25,7 +25,7 @@ $ brew install pyenv-virtualenv
 
 ```
 $ pyenv install --list
-$ pyenv install 3.9.6
+$ pyenv install 3.7.11
 $ pyenv versions
 ```
 
@@ -56,6 +56,7 @@ $ poetry config virtualenvs.in-project true
 $ poetry config virtualenvs.path "./.venv"
 
 # 프로젝트 내부에 venv 새로 설치
+$ pyenv local 3.7.11
 $ poetry install && poetry update
 ```
 
