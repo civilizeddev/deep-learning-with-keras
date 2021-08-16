@@ -15,7 +15,8 @@
         "**/.classpath": true,
         "**/.project": true,
         "**/.settings": true,
-        "**/.factorypath": true
+        "**/.factorypath": true,
+        "**/.venv": true
     },
     "explorerExclude.backup": null,
     "python.formatting.provider": "black",
