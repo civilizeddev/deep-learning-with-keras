@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "deep-learning-with-keras"
+name = "changeme"
 version = "0.1.0"
-description = ""
+description = "Python Template Project"
 authors = ["David Lee <davie.lee@unomic.com>"]
 license = "MIT"
 
@@ -13,6 +13,7 @@ matplotlib = "~1.5"
 
 [tool.poetry.dev-dependencies]
 black = "^21.7b0"
+pytest = "^6.2.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

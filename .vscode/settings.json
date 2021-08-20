@@ -1,24 +1,30 @@
 {
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "editor.formatOnSave": true,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true,
-        "**/.venv": true
-    },
-    "explorerExclude.backup": null,
-    "python.formatting.provider": "black",
-    "python.formatting.blackPath": ".venv/bin/black"
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.venv": true,
+    "**/dist": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+  "explorerExclude.backup": null,
+  "files.associations": {
+    "package.json": "json"
+  },
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": ".venv/bin/black"
 }

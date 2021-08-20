@@ -1,8 +1,8 @@
 {
-    "recommendations": [
-        "redvanworkshop.explorer-exclude-vscode-extension",
-        "editorconfig.editorconfig",
-        "redhat.vscode-yaml",
-        "leojhonsong.python-extension-pack"
-    ]
+  "recommendations": [
+    "redvanworkshop.explorer-exclude-vscode-extension",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "leojhonsong.python-extension-pack"
+  ]
 }

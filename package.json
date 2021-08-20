@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "refresh": "poetry install && poetry update",
+    "build": "poetry build --format wheel",
+    "test": "poetry run pytest"
+  }
+}
